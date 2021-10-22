@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+wrapText {
+  word-break: break-all;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.chatbox__messageBox {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.message-box {
+  background: #f1f1f1;
+  position: relative;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 15px;
+  cursor: default;
+  transition: all 0.12s;
+}
+.message-box:hover {
+  opacity: 0.7;
+}
+.currentUser {
+  background: rgb(3, 96, 165);
+  color: #fff;
+}
+.message-box:hover .chatbox__tooltip {
+  opacity: 1;
+  margin-top: -5px;
+}
+.chatbox__tooltip {
+  opacity: 0;
+  z-index: 2;
+  width: auto;
+  font-size: 12px;
+  text-align: center;
+  padding: 3px 10px;
+  cursor: default;
+  position: absolute;
+  color: #fff;
+  box-sizing: border-box;
+  border-radius: 15px;
+  background: #111;
+  transition: all 0.14s;
+}
+.chatbox__tooltip--left {
+  right: calc(100% + 5px);
+  margin-left: 5px;
+  top: 5px;
+}
+.chatbox__tooltip--right {
+  left: calc(100% + 5px);
+  margin-left: 5px;
+  top: 5px;
+}
+
+.chatbox-popup__footer {
+  margin-top: 5px;
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  padding-top: 5px;
+  border-top: 1px solid #ddd;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.textAreaComment {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  //height: calc(16px + 16px / 2);
+  height: auto;
+  width: 100%;
+  padding: 0 calc(16px / 2);
+  font-family: inherit;
+  font-size: 16px;
+  line-height: calc(16px + 16px / 2);
+  color: #888;
+  border: 0;
+  outline: 0 !important;
+  resize: none;
+  overflow: hidden;
+  border: 2px solid #2196f3;
+  border-radius: 10px;
+}

@@ -1,0 +1,27 @@
+import gbl from "utils/formatter";
+
+export default {
+  InvhSeq: "Auto",
+  InvhSeqAuto: true,
+  InvhDate: new Date(),
+  InvhDueDate: new Date(),
+  InvhSource: "A/R",
+  CreditTerm: 0,
+  InvNo: "Auto",
+  InvhTaxNo: "",
+  TaxType: "None",
+  ArNo: "",
+  InvhType: "",
+  InvhOwner: "",
+  InvhDesc: "",
+  CurrRate: 0,
+  CurrCode: "",
+  InvhTotal: 0,
+  ProjectCode: "",
+  InvhStatus: "Effective",
+  ArContractHId: 0,
+  UserModified: gbl.UserName,
+  Detail: [],
+  RunNoType: true,
+  RunTaxType: false,
+};

@@ -1,0 +1,28 @@
+import gbl from "utils/formatter";
+
+export default {
+  ArContractHId: 0,
+  ArNo: "",
+  DtlNo: 0,
+  ConStart: new Date(),
+  ConEnd: null,
+  ConDue: "",
+  LastDue: "",
+  Periodic: 1,
+  ConLive: "",
+  LastInvSeq: 0,
+  ConNext: "",
+  ContractNo: "",
+  ContractDate: "",
+  ConHDesc: "",
+  Owner: "",
+  ProjectCode: "",
+  CurCode: "",
+  CurRate: 0,
+  TotalAmount: 0,
+  TotalBaseAmount: 0,
+  PeriodicMonth: 1,
+  Active: true,
+  UserModified: gbl.UserName,
+  Detail: [],
+};

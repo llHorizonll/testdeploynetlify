@@ -1,0 +1,27 @@
+import gbl from "utils/formatter";
+
+export default {
+  HotelName: "",
+  HotelTel: "",
+  HotelEmail: "",
+  HotelAdd1: "",
+  HotelAdd2: "",
+  HotelAdd3: "",
+  RegName: "",
+  RegTel: "",
+  RegEmail: "",
+  RegAdd1: "",
+  RegAdd2: "",
+  RegAdd3: "",
+  RegDate: new Date(),
+  RegId: "",
+  RegTaxId: "",
+  BranchNo: "",
+  ContactName: "",
+  ContactTel: "",
+  ContactEmail: "",
+  ContactFax: "",
+  ContactModem: "",
+  Logo: "",
+  UserModified: gbl.UserName,
+};
